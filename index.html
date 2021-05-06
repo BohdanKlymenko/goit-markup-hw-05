@@ -57,7 +57,9 @@
       <section class="section hero">
         <div class="container">
           <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="btn btn-hero" type="button">Заказать услугу</button>
+          <button class="btn btn-hero" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <section class="section advantages-section">
@@ -120,28 +122,43 @@
           <h2 class="title gallery-title">Чем мы занимаемся</h2>
           <ul class="list gallery-list">
             <li class="gallery-item">
-              <img
-                src="./images/photo/img1.jpg"
-                width="370"
-                height="294"
-                alt="Разработка веб-страници"
-              />
+              <div class="gallery-img">
+                <img
+                  src="./images/photo/img1.jpg"
+                  width="370"
+                  height="294"
+                  alt="Разработка веб-страници"
+                />
+                <div class="gallery-info">
+                  <p class="gallery-text">Десктопные приложения</p>
+                </div>
+              </div>
             </li>
             <li class="gallery-item">
-              <img
-                src="./images/photo/img2.jpg"
-                width="370"
-                height="294"
-                alt="Адаптация для мобильных устройств"
-              />
+              <div class="gallery-img">
+                <img
+                  src="./images/photo/img2.jpg"
+                  width="370"
+                  height="294"
+                  alt="Адаптация для мобильных устройств"
+                />
+                <div class="gallery-info">
+                  <p class="gallery-text">Мобильные приложения</p>
+                </div>
+              </div>
             </li>
             <li class="gallery-item">
-              <img
-                src="./images/photo/img3.jpg"
-                width="370"
-                height="294"
-                alt="Разработка графики"
-              />
+              <div class="gallery-img">
+                <img
+                  src="./images/photo/img3.jpg"
+                  width="370"
+                  height="294"
+                  alt="Разработка графики"
+                />
+                <div class="gallery-info">
+                  <p class="gallery-text">Дизайнерские решения</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -565,5 +582,20 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" data-modal-close>
+          <svg class="close-modal-svg">
+            <use href="./images/icons/close-black.svg"></use>
+          </svg>
+        </button>
+        <p class="title-modal">title</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic
+          rem, temporibus qui magni vel placeat!
+        </p>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
