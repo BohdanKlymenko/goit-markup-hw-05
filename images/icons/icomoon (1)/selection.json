@@ -14,12 +14,12 @@
       },
       "attrs": [],
       "properties": {
-        "order": 62,
+        "order": 63,
         "id": 0,
         "name": "close-black",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 2,
       "setId": 3,
       "iconIdx": 0
     }

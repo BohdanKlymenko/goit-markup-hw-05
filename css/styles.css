@@ -655,7 +655,7 @@ img {
   background-color: var(--alt-text-color);
 }
 
-.close-modal-svg {
+.modal-close-svg {
   width: 18px;
   height: 18px;
 }
